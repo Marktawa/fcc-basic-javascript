@@ -12,3 +12,11 @@ function checkObj(obj, checkProp) {
   else
     return "Not Found";
 }
+
+var objectToTest = {
+  "bitler": "Fred",
+  "stel": "Compos",
+  "grit": "Dirka"
+};
+
+console.log(checkObj(objectToTest, "bitler"));
